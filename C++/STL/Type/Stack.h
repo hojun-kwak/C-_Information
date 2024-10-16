@@ -25,7 +25,7 @@ public:
 	}
 	const T& top() { return _data.back(); }
 	bool empty() { return _data.empty(); }
-	unsigned int size() { return _data.size(); }
+	size_t size() { return _data.size(); }
 private:
 	vector<T> _data;
 };

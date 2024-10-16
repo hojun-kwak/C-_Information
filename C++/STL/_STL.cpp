@@ -49,3 +49,21 @@ void T_STL::QueueP()
 	cout << q2.size() << endl;
 	cout << q2.empty() << endl;
 }
+
+void T_STL::List_QueueP()
+{
+	T_List_Queue<int> q;
+	q.EnQueue(1);
+	q.EnQueue(2);
+	q.EnQueue(3);
+	q.EnQueue(4);
+
+	q.DeQueue();
+
+	cout << q.front() << endl;
+	cout << q.back() << endl;
+	cout << q.size() << endl;
+	cout << q.Empty() << endl;
+
+	int a = 10;
+}

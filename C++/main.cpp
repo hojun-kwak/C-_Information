@@ -6,7 +6,8 @@
 void main()
 {
 	T_STL* stl = new T_STL();
-	stl->StackP();
+	//stl->StackP();
 	//stl->QueueP();
+	stl->List_QueueP();
 
 }
